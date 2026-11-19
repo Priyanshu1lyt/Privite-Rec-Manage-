@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "creatorhq",
+  "version": "${version}",
+  "name": "CreatorHQ Recording Manager",
+  "authors": ["NotHeartYT", "Praveen_God_67", "Nebrion_Verse"],
+  "environment": "client",
+  "entrypoints": { "client": ["studio.creatorhq.CreatorHQClient"] },
+  "depends": {
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*"
+  }
+}
